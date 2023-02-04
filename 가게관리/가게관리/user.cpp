@@ -88,7 +88,7 @@ int cancel(int bId) {
 	P_Qtt[pidx] -= del_Q;
 
 	return P_Qtt[pidx];
-}
+} //test
 
 int sell(int sId, int mProduct, int mPrice, int mQuantity) {
 	int result = mQuantity * mPrice;
